@@ -14,7 +14,7 @@ public class User {
 
 
     @Id
-    @GeneratedValue(generator = "UUID")
+    @GeneratedValue
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
 
